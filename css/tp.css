@@ -1,0 +1,139 @@
+:root{
+    --primary:#87D37C;
+    --sombre: rgb(53, 53, 53);
+    --clair:#FFF;
+}
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3, h4, p{
+    text-align: center;
+}
+
+#btn-search img{
+    width: 20px;
+    height: 20px;
+}
+
+.container{
+    padding: 0px;
+}
+
+
+.row{
+    margin: 0px;
+}
+
+.col-12{
+    margin: 0px;
+}
+
+
+
+
+
+#ingredients{
+    color: darkorange;
+}
+
+#additifs{
+    color: mediumslateblue;
+}
+
+#ean{
+    color: navy;
+}
+
+#poids{
+    color: olivedrab;
+}
+
+#conservation{
+    color: red;
+}
+
+#allergenes{
+    color: var(--primary);
+}
+
+
+#emballage{
+    color: maroon;
+}
+
+#categories{
+    color: orchid;
+}
+
+
+
+.json{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/*BOUTON THEME*/
+.theme button img{
+    width: 30px;
+    height: 30px;
+}
+
+.theme button{
+    margin-left: 10px;
+    transition: all ease-in-out 0.4s;
+    border-radius: 10px;
+    background-color: white;
+    transition-duration: 0.3s;
+
+}
+
+
+  
+.theme button:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+
+
+
+
+.dark-mode{
+    background-color:var(--sombre);
+    color: var(--clair);
+}
+
+.dark-mode p, h3, h4{
+    color: var(--sombre);
+}
+
+
+.light-mode{
+    background-color: var(--clair);
+    color: var(--sombre);
+}
+
+.fleche svg{
+    position: fixed;
+    color: black;
+    top: 650px;
+    left: 1450px;
+
+}
+
+
+.list-group-item{
+    font-size: 18px;
+}
